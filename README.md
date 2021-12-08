@@ -6,12 +6,12 @@
 
 ## **Solution proposal**
 
-- First of all, the image control subpackage is added under the fslview package.
+- First of all, ***the image control subpackage*** is added under the fslview package.
 - In this package, each error that disrupts the image quality is defined with a code (artefact, density difference, missing drawing of brain structures etc.)
-- For this identification, _**normal limits**_ should be described for each error.
+- For this identification, *normal limits* should be described for each error.
 - These errors should be identified both collectively and individually (since data owners may not need to exclude some or want to check them individually).
 - This package should be updated with new needs, errors and corrections. 
 
 ## **Futura direction**
 
-Other common and important imaging programs such as ***freesurfer*** should solve this problem with similar application 
+This application will greatly reduce the loss of time and interpersonal differences in neuroimaging analysis. This will contribute to the *reproducibility* of studies in this field. Other common and important imaging programs such as ***freesurfer*** should solve this problem with similar application 
