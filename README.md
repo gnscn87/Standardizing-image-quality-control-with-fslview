@@ -7,10 +7,11 @@
 ## **Solution proposal**
 
 - First of all, the image control subpackage is added under the fslview package.
-- In this package, each error that disrupts the image control is defined with a code (artefact, density difference, missing drawing of brain structures etc.)
+- In this package, each error that disrupts the image quality is defined with a code (artefact, density difference, missing drawing of brain structures etc.)
+- For this identification, _**normal limits**_ should be described for each error.
 - These errors should be identified both collectively and individually (since data owners may not need to exclude some or want to check them individually).
-- This package should be updated with new needs, mistakes and corrections. 
+- This package should be updated with new needs, errors and corrections. 
 
 ## **Futura direction**
 
-Other common and important imaging programs such as ***Freesurfer*** should solve this problem with similar application 
+Other common and important imaging programs such as ***freesurfer*** should solve this problem with similar application 
